@@ -11,7 +11,7 @@ var mass = [
   var output = "";
   
   for(let i = 0; i < 5; i++){
-     r += `${mass[i][x]} ${mass[i][y]} ${mass[i][z]} ${mass[i][t]} ${mass[i][p]} `;
+     output += `${mass[i][x]} ${mass[i][y]} ${mass[i][z]} ${mass[i][t]} ${mass[i][p]} `;
        
   s = t;
   t = y;
